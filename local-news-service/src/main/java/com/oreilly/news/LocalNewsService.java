@@ -1,7 +1,7 @@
-package com.oreilly.news;
+package com.distributedleo.news;
 
 import com.google.inject.Module;
-import com.oreilly.microservices.Microservice;
+import com.distributedleo.microservices.Microservice;
 
 public class LocalNewsService extends Microservice {
 

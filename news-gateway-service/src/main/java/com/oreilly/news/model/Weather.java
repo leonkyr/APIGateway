@@ -1,4 +1,4 @@
-package com.oreilly.news.model;
+package com.distributedleo.news.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

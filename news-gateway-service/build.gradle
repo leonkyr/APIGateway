@@ -1,4 +1,4 @@
-group 'com.oreilly'
+group 'com.distributedleo'
 
 apply plugin: 'java'
 apply plugin: 'docker'
@@ -14,15 +14,15 @@ buildscript {
 repositories {
     mavenCentral()
     maven {
-        url 'http://dl.bintray.com/rickfast/microservice-chassis/'
+        url 'http://dl.bintray.com/leonkyr/microservice-chassis/'
     }
 }
 
 dependencies {
-    compile 'com.oreilly.microservices:microservice-chassis:1.0'
+    compile 'com.distributedleo.microservices:microservice-chassis:1.0'
 }
 
-mainClassName = 'com.oreilly.news.NewsGatewayService'
+mainClassName = 'com.distributedleo.news.NewsGatewayService'
 
 task dockerImage(type: Docker) {
     group = 'docker'
@@ -34,9 +34,9 @@ task dockerImage(type: Docker) {
 
     doFirst {
         def buildNumber = System.getenv('BUILD_NUMBER')
-        baseImage = 'rickfast/oreilly-microservice-base'
+        baseImage = 'leonkyr/java-microservice-base'
         tagVersion = buildNumber ? "${project.version}.${buildNumber}" : project.version
-        registry = 'rickfast'
+        registry = 'leonkyr'
         applicationName = project.applicationName
         addFile project.distTar.outputs.files.singleFile
         exposePort 8080

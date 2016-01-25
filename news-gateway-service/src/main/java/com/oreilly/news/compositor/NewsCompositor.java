@@ -1,13 +1,13 @@
-package com.oreilly.news.compositor;
+package com.distributedleo.news.compositor;
 
 import com.google.inject.Inject;
-import com.oreilly.news.command.LocalNewsHystrixCommand;
-import com.oreilly.news.command.WeatherHystrixCommand;
-import com.oreilly.news.http.LocalNewsApi;
-import com.oreilly.news.http.WeatherApi;
-import com.oreilly.news.model.CityNews;
-import com.oreilly.news.model.LocalNews;
-import com.oreilly.news.model.Weather;
+import com.distributedleo.news.command.LocalNewsHystrixCommand;
+import com.distributedleo.news.command.WeatherHystrixCommand;
+import com.distributedleo.news.http.LocalNewsApi;
+import com.distributedleo.news.http.WeatherApi;
+import com.distributedleo.news.model.CityNews;
+import com.distributedleo.news.model.LocalNews;
+import com.distributedleo.news.model.Weather;
 
 import java.util.concurrent.Future;
 

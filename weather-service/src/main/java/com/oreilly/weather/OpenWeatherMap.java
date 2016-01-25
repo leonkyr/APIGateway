@@ -1,6 +1,6 @@
-package com.oreilly.weather;
+package com.distributedleo.weather;
 
-import com.oreilly.weather.model.Weather;
+import com.distributedleo.weather.model.Weather;
 import retrofit.http.GET;
 import retrofit.http.Query;
 

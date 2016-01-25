@@ -1,10 +1,10 @@
-package com.oreilly.news;
+package com.distributedleo.news;
 
 import com.google.inject.Inject;
 import com.google.inject.Provider;
 import com.google.inject.Scopes;
-import com.oreilly.news.health.ElasticsearchHealthCheck;
-import com.oreilly.news.store.NewsStore;
+import com.distributedleo.news.health.ElasticsearchHealthCheck;
+import com.distributedleo.news.store.NewsStore;
 import com.typesafe.config.Config;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;

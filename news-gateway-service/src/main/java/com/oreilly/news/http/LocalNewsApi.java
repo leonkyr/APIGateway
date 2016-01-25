@@ -1,6 +1,6 @@
-package com.oreilly.news.http;
+package com.distributedleo.news.http;
 
-import com.oreilly.news.model.LocalNews;
+import com.distributedleo.news.model.LocalNews;
 import retrofit.http.GET;
 import retrofit.http.Path;
 

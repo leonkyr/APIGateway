@@ -1,4 +1,4 @@
-package com.oreilly.news.health;
+package com.distributedleo.news.health;
 
 import com.codahale.metrics.health.HealthCheck;
 import com.google.inject.Inject;

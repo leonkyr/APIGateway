@@ -1,10 +1,10 @@
-package com.oreilly.news.command;
+package com.distributedleo.news.command;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
-import com.oreilly.news.http.WeatherApi;
-import com.oreilly.news.model.Weather;
+import com.distributedleo.news.http.WeatherApi;
+import com.distributedleo.news.model.Weather;
 
 public class WeatherHystrixCommand extends HystrixCommand<Weather> {
 

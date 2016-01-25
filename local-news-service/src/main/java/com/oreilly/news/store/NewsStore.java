@@ -1,10 +1,10 @@
-package com.oreilly.news.store;
+package com.distributedleo.news.store;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.inject.Inject;
 import com.google.inject.Provider;
-import com.oreilly.news.model.News;
+import com.distributedleo.news.model.News;
 import com.thedeanda.lorem.Lorem;
 import org.elasticsearch.client.Client;
 import org.slf4j.Logger;

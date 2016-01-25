@@ -1,8 +1,8 @@
-package com.oreilly.news;
+package com.distributedleo.news;
 
 import com.google.inject.Inject;
-import com.oreilly.news.model.News;
-import com.oreilly.news.store.NewsStore;
+import com.distributedleo.news.model.News;
+import com.distributedleo.news.store.NewsStore;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

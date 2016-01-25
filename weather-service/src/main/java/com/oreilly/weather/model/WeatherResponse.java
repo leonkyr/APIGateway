@@ -1,6 +1,6 @@
-package com.oreilly.weather.model;
+package com.distributedleo.weather.model;
 
-import com.oreilly.weather.util.Kelvin;
+import com.distributedleo.weather.util.Kelvin;
 
 import java.io.Serializable;
 

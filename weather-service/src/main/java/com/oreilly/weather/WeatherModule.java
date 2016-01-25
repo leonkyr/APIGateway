@@ -1,9 +1,9 @@
-package com.oreilly.weather;
+package com.distributedleo.weather;
 
 import com.google.inject.Provides;
 import com.google.inject.Scopes;
 import com.google.inject.name.Named;
-import com.oreilly.weather.model.WeatherResponse;
+import com.distributedleo.weather.model.WeatherResponse;
 import com.typesafe.config.Config;
 import org.jboss.resteasy.plugins.guice.ext.RequestScopeModule;
 import retrofit.RestAdapter;

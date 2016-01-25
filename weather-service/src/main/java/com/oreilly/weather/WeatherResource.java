@@ -1,8 +1,8 @@
-package com.oreilly.weather;
+package com.distributedleo.weather;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
-import com.oreilly.weather.model.WeatherResponse;
+import com.distributedleo.weather.model.WeatherResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

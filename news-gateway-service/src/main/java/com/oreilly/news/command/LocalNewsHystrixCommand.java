@@ -1,10 +1,10 @@
-package com.oreilly.news.command;
+package com.distributedleo.news.command;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandProperties;
-import com.oreilly.news.http.LocalNewsApi;
-import com.oreilly.news.model.LocalNews;
+import com.distributedleo.news.http.LocalNewsApi;
+import com.distributedleo.news.model.LocalNews;
 
 public class LocalNewsHystrixCommand extends HystrixCommand<LocalNews> {
 

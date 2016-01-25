@@ -1,12 +1,12 @@
-package com.oreilly.news;
+package com.distributedleo.news;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.google.inject.Scopes;
-import com.oreilly.microservices.discovery.ClientFactory;
-import com.oreilly.news.compositor.NewsCompositor;
-import com.oreilly.news.http.LocalNewsApi;
-import com.oreilly.news.http.WeatherApi;
+import com.distributedleo.microservices.discovery.ClientFactory;
+import com.distributedleo.news.compositor.NewsCompositor;
+import com.distributedleo.news.http.LocalNewsApi;
+import com.distributedleo.news.http.WeatherApi;
 
 public class NewsGatewayModule extends AbstractModule {
 

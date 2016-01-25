@@ -1,7 +1,7 @@
-package com.oreilly.weather;
+package com.distributedleo.weather;
 
 import com.google.inject.Module;
-import com.oreilly.microservices.Microservice;
+import com.distributedleo.microservices.Microservice;
 import org.jsr107.ri.annotations.guice.module.CacheAnnotationsModule;
 
 public class WeatherService extends Microservice {

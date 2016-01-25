@@ -1,4 +1,4 @@
-package com.oreilly.news.model;
+package com.distributedleo.news.model;
 
 public class News {
     

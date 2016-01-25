@@ -1,4 +1,4 @@
-package com.oreilly.weather.model;
+package com.distributedleo.weather.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

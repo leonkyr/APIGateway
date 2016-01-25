@@ -1,4 +1,4 @@
-package com.oreilly.weather.util;
+package com.distributedleo.weather.util;
 
 public class Kelvin {
 
